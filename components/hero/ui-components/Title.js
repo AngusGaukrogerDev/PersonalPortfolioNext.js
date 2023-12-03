@@ -6,10 +6,12 @@ const Title = () => {
       <h3>Full-Stack Software Developer</h3>
       <div className="flex flex-row justify-start items-center gap-3">
         <Button
+            destinationLink={"/#contact"}
             buttonText={"Contact"}
             solidColour={true}
         />
         <Button 
+            destinationLink={"/"}
             buttonText={"Learn More"}
             solidColour={false}
         />
