@@ -1,0 +1,16 @@
+.img-class{
+    position: relative;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.img-class img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
