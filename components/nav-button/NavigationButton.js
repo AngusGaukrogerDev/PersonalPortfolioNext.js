@@ -1,5 +1,6 @@
 'use client' 
 import { useState } from "react";
+import NavigationScreen from "../navigation-screen/NavigationScreen";
 
 const NavigationButton = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -9,7 +10,8 @@ const NavigationButton = () => {
   };
 
   return (
-    <div className="absolute top-3 right-3">
+    <>
+    <div className="fixed bg-none top-3 right-3 z-[103]">
       <button onClick={handleToggleMenu}>
         {openMenu ? (
           <svg
@@ -40,6 +42,8 @@ const NavigationButton = () => {
         )}
       </button>
     </div>
+    {openMenu ? <NavigationScreen onSelectItem={handleToggleMenu} /> : <></>}
+    </>
   );
 };
 

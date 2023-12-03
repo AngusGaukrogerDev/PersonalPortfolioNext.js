@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="hero-section bg-contain md:bg-cover lg:bg-cover xl:bg-cover 2xl:bg-cover z-0">
             <BackgroundImage />
             {/* Your Hero Section Content Goes Here */}
-            <div className="absolute bottom-0 z-99">
+            <div className="absolute bottom-0 z-2">
                <Title />
             </div>
       </div>

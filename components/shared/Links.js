@@ -1,9 +1,9 @@
 // import { Icon } from '@iconify/react';
 
-const Links = () => {
+const Links = ({onSelectExternal}) => {
   return (
     <div className="flex flex-row justify-center items-start gap-5">
-      <a href="https://github.com/AngusGaukrogerDev">
+      <a onClick={onSelectExternal} target="_blank" href="https://github.com/AngusGaukrogerDev">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="36"
@@ -18,7 +18,7 @@ const Links = () => {
           />
         </svg>
       </a>
-      <a href="https://www.linkedin.com/in/angusgaukroger/">
+      <a onClick={onSelectExternal} target="_blank" href="https://www.linkedin.com/in/angusgaukroger/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="36"
@@ -31,7 +31,7 @@ const Links = () => {
           />
         </svg>
       </a>
-      <a href="mailto:angus@pitahayalabs.com">
+      <a onClick={onSelectExternal} target="_blank" href="mailto:angus@pitahayalabs.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="36"
