@@ -1,14 +1,14 @@
-import Button from "@/components/shared/Button";
+import ButtonExternalLink from "@/components/shared/ButtonExternalLink";
 
 const PitahayaLabsText = () => {
     return(
-        <div className="h-full xl:w-1/2 gap-3 flex flex-col justify-center items-start">
+        <div className="h-full md:w-full gap-3 flex flex-col justify-center items-start">
             <h2>Pitahaya Labs</h2>
             <h3>My Professional Web Development Services Business</h3>
             <p>In September 2023 I founded Pitahaya Labs - A Web Development Business specialising in professional contracting services.</p>
-            <Button 
+            <ButtonExternalLink 
             buttonText={"Visit Site"}
-            destinationLink={"/"}
+            destinationLink={"https://www.pitahayalabs.com/"}
             solidColour={true}
             />
         </div>

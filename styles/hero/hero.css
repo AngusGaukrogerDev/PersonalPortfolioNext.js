@@ -14,3 +14,14 @@
     width: 100%;
     height: auto;
 }
+
+.smooth-zoom {
+    animation: zoom 15s ease-in-out infinite;
+    overflow: hidden;
+  }
+  
+  @keyframes zoom {
+    50% {
+        transform: scale(1.08);
+    }
+  }

@@ -1,10 +1,9 @@
-import Link from "next/link";
-
-const Button = ({ buttonText, solidColour, destinationLink }) => {
+const ButtonExternalLink = ({ buttonText, solidColour, destinationLink }) => {
   return (
-    <Link
+    <a
       href={destinationLink}
-      className={`flex flex-row justify-center items-center px-2 py-4 gap-1 w-40 h-14 border-2 xl:w-64 xl:h-16 xl:py-10 ${
+      target="_blank"
+      className={`flex flex-row justify-center items-center px-2 py-4 gap-2 w-40 h-14 border-2 xl:w-64 xl:h-16 xl:py-10 ${
         solidColour
           ? "bg-lime border-lime text-rich_black hover:bg-rich_black hover:border-lime hover:text-anti-flash_white  hover:stroke-anti-flash_white hover:anti-flash_white"
           : "bg-none text-anti-flash_white border-anti-flash_white  hover:bg-anti-flash_white hover:border-anti-flash_white hover:text-rich_black hover:stroke-rich_black hover:fill-current"
@@ -25,7 +24,7 @@ const Button = ({ buttonText, solidColour, destinationLink }) => {
         />
       </svg>
 
-    </Link>
+    </a>
   );
 };
-export default Button;
+export default ButtonExternalLink;

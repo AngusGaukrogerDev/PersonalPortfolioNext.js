@@ -96,6 +96,7 @@ h3 {
 }
 
 h4 {
+
   font-family: "Roboto", sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -175,6 +176,7 @@ p {
   }
 
   p {
+    color: #ebebeb;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
