@@ -7,7 +7,7 @@ const Hero = () => {
             <BackgroundImage />
             {/* Your Hero Section Content Goes Here */}
             <div className="absolute bottom-0 z-99">
-               {/* <Title /> */}
+               <Title />
             </div>
       </div>
     );
