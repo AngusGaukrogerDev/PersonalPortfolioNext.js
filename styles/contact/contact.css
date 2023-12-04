@@ -1,0 +1,23 @@
+input
+{
+    background: transparent;
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -1.44px;
+}
+
+textarea
+{
+    background: transparent;
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -1.44px;
+}

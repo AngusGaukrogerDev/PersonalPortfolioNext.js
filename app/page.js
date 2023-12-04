@@ -4,6 +4,7 @@ import PitahayaLabs from "@/components/pitahaya-labs/PitahayaLabs"
 import Projects from "@/components/projects/Projects"
 import Contact from "@/components/contact/Contact"
 import NavigationButton from "@/components/nav-button/NavigationButton"
+import Footer from "@/components/footer/Footer"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PitahayaLabs />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
