@@ -7,7 +7,7 @@ const ContactForm = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data)
   return (
-    <form className="flex flex-col gap-3" onSubmit={handleSubmit(onSubmit)}>
+    <form className="flex flex-col gap-3 md:w-3/4" onSubmit={handleSubmit(onSubmit)}>
       <input className="bg-none w-full h-20 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Name" />
       <input className="bg-none w-full h-20 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Email" />
       <textarea className="bg-none w-full h-40 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Message" />
