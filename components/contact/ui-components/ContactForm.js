@@ -8,6 +8,7 @@ const ContactForm = () => {
   const onSubmit = (data) => console.log(data)
   return (
     <form className="flex flex-col gap-3 md:w-3/4" onSubmit={handleSubmit(onSubmit)}>
+      <h2>Contact</h2>
       <input className="bg-none w-full h-20 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Name" />
       <input className="bg-none w-full h-20 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Email" />
       <textarea className="bg-none w-full h-40 border-2 border-anti-flash_white text-anti-flash_white placeholder-anti-flash_white py-2 px-3" {...register} placeholder="Message" />

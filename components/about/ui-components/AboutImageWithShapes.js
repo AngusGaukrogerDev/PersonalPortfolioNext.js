@@ -22,7 +22,7 @@ const AboutImageWithShapes = () => {
       <div> </div>
 
       <div> </div>
-      <img className="z-4 scale-[2.5]" src="/images/about/GlacierNearHuarazPeruMobile.png" />
+      <img className="z-4 scale-[2.75] lg:scale-[2]" src="/images/about/GlacierNearHuarazPeru.png" />
       <svg
         width="65"
         height="66"
