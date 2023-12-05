@@ -1,7 +1,7 @@
 import "@/styles/about/about.css"
 const AboutImageWithShapes = () => {
   return (
-    <div className="grid  grid-cols-3 grid-rows-3 items-center justify-items-center gap-3 ">
+    <div className="grid grid-cols-3 grid-rows-3 items-center justify-items-center gap-3 ">
       <div> </div>
       <svg
         x="50"

@@ -118,23 +118,53 @@ p {
 /* Tablet Styles */
 @media only screen and (max-width: 768px) {
   h1 {
-    /* Add tablet styles for h1 */
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.5%;
   }
 
   h2 {
-    /* Add tablet styles for h2 */
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.5%;
   }
 
   h3 {
-    /* Add tablet styles for h3 */
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -3%;
   }
 
   h4 {
-    /* Add tablet styles for h4 */
+
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -3%;
   }
 
   p {
-    /* Add tablet styles for p */
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -3%;
   }
 }
 
