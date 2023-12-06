@@ -1,7 +1,7 @@
 const ContactImage = () => {
     return (
       <div className="w-full flex flex-col justify-center items-center relative scale-95 lg:w-1/2 md:h-screen">
-        <img className="z-10 absolute top-0 left-0 right-0 bottom-0 m-auto scale-95" src="/images/contact/football-img.png" />
+        <img className="z-10 absolute top-0 left-0 right-0 bottom-0 m-auto scale-95 " src="/images/contact/football-img.png" />
         <div className="z-3 ">
             <svg
             width="479"

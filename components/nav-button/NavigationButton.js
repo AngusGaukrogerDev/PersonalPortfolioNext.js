@@ -11,7 +11,7 @@ const NavigationButton = () => {
 
   return (
     <>
-    <div className="fixed bg-none top-3 right-3 z-[103]">
+    <div className="fixed bg-none top-3 right-3 z-[103] md:scale-[1.75] md:top-10 md:right-10 lg:scale-[2] lg:top-10 lg:right-10">
       <button onClick={handleToggleMenu}>
         {openMenu ? (
           <svg

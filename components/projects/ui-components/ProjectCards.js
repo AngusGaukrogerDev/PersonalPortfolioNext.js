@@ -15,7 +15,7 @@ const ProjectCards = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-between gap-10 w-auto overflow-visible">
+        <div className="flex flex-col justify-between gap-10 w-auto overflow-visible  xl:w-1/2">
             {cardData && cardData.map((card) => (
                 <ProjectCard key={card.Title} title={card.Title} description={card.Description} Link />
             ))}

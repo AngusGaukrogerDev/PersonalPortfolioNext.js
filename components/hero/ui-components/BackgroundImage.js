@@ -14,7 +14,7 @@ const BackgroundImage = ({ src }) => {
       {/*  Desktop Background Image */}
       <div className="hidden md:hidden lg:block xl:block 2xl:hidden smooth-zoom">
         <img
-          className="w-full h-screen object-cover object-top "
+          className="w-full h-screen object-cover object-right "
           src="/images/hero/DESKTOP.jpg"
           alt="Desktop Background"
         />
@@ -23,7 +23,7 @@ const BackgroundImage = ({ src }) => {
       {/* Tablet Background Image */}
       <div className="hidden md:block lg:hidden xl:hidden 2xl:hidden smooth-zoom">
         <img
-          className="w-full h-screen object-cover object-top "
+          className="w-full h-screen object-cover object-right "
           src="/images/hero/LARGE-TABLET.jpg"
           alt="Desktop Background"
         />
