@@ -29,7 +29,7 @@ const BackgroundImage = ({ src }) => {
         />
       </div>
       {/* Tablet Background Image */}
-      <div className="hidden sm:block md:hidden lg:hidden xl:hidden 2xl:hidden smooth-zoom">
+      <div className="hidden sm:block md:hidden lg:hidden xl:hidden 2xl:hidden smooth-zoom bg-no-repeat">
         <img
           className="w-full h-screen object-cover object-top "
           src="/images/hero/VERTICAL-TABLET.jpg"
@@ -38,7 +38,7 @@ const BackgroundImage = ({ src }) => {
       </div>
 
       {/* Mobile Background Image */}
-      <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden smooth-zoom">
+      <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden smooth-zoom bg-no-repeat">
         <img
           className="w-screen h-screen object-cover object-center"
           src="/images/hero/SMALL-MOBILE.jpg"
