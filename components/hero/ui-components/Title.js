@@ -11,7 +11,7 @@ const Title = () => {
             solidColour={true}
         />
         <Button 
-            destinationLink={"/"}
+            destinationLink={"/#about"}
             buttonText={"Learn More"}
             solidColour={false}
         />
