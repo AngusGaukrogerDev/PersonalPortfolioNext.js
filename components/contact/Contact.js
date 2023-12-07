@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="w-full gap-5 lg:w-1/2 md:h-screen md:flex md:flex-col md:justify-center  md:items-start">
                 <ContactForm />
             </div>
-            <div className="w-full lg:h-full lg:w-1/2 lg:flex lg:items-start lg:justify-center lg:scale-[1.4] overflow-hidden">
+            <div className="w-full lg:h-auto lg:w-1/2 lg:flex lg:items-start lg:justify-center lg:scale-[1.4] overflow-hidden">
                 <ContactImage />
             </div>
         </div>
