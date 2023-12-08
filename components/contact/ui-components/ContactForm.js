@@ -31,7 +31,6 @@ const ContactForm = () => {
           "Referrer": "https://angusgaukroger.com",
         },
         redirect: "follow",
-        referrerPolicy: "no-referrer",
         body: JSON.stringify(formData),
       });
 
