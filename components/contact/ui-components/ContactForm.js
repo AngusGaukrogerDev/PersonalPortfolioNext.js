@@ -27,6 +27,8 @@ const ContactForm = () => {
         credentials: "same-origin",
         headers: {
           "Content-Type": "application/json",
+          "Origin": "https://angusgaukroger.com",
+          "Referrer": "https://angusgaukroger.com",
         },
         redirect: "follow",
         referrerPolicy: "no-referrer",
