@@ -24,15 +24,15 @@ const ContactForm = () => {
         method: "POST",
         mode: "cors",
         cache: "no-cache",
-        credentials: "same-origin",
+        credentials: "include",  
         headers: {
           "Content-Type": "application/json",
           "Origin": "https://angusgaukroger.com",
-          "Referrer": "https://angusgaukroger.com",
         },
         redirect: "follow",
         body: JSON.stringify(formData),
       });
+
 
       if (response.ok) {
         console.log('Email sent successfully');
