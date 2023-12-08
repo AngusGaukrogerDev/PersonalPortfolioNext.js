@@ -22,12 +22,11 @@ const ContactForm = () => {
 
       const response = await fetch('https://mail.brth.uk:1234/api/v1/form/047b7e86-7d2b-4572-86d6-0d021e9643d3', {
         method: "POST",
-        mode: "cors",
-        cache: "no-cache",
-        credentials: "include",  
+        origin: "https://angusgaukroger.com",
         headers: {
           "Content-Type": "application/json",
-          "Origin": "https://angusgaukroger.com",
+          // 'Access-Control-Allow-Origin': 'https://angusgaukroger.com',
+          // 'Access-Control-Allow-Credentials', 'true'
         },
         redirect: "follow",
         body: JSON.stringify(formData),
