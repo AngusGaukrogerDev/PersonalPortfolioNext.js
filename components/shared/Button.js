@@ -4,7 +4,7 @@ const Button = ({ buttonText, solidColour, destinationLink }) => {
   return (
     <Link
       href={destinationLink}
-      className={`flex flex-row justify-center items-center px-2 py-4 gap-2 w-40 h-14 border-2 sm:w-44 sm:h-18md:gap-1 md:w-52 md:h-24 md:py-1 md:px-2 lg:h-24 xl:w-64 xl:h-16 xl:py-10 hover:cursor-pointer ${
+      className={`flex flex-row justify-center items-center px-1 py-0 sm:py-4 gap-1 sm:gap-1 w-36 h-14 border-2 sm:w-44 sm:h-18 md:gap-1 md:w-52 md:h-18 md:py-1 md:px-2 lg:h-20 xl:w-64 xl:h-16 xl:py-10 hover:cursor-pointer ${
         solidColour
           ? "fill-rich_black stroke-rich_black hover:stroke-anti-flash_white hover:fill-anti-flash_white bg-lime border-lime text-rich_black hover:bg-rich_black hover:border-lime hover:text-anti-flash_white"
           : "fill-anti-flash_white stroke-anti-flash_white hover:stroke-rich_black hover:fill-rich_black bg-none  text-anti-flash_white border-anti-flash_white  hover:bg-anti-flash_white hover:border-anti-flash_white hover:text-rich_black"

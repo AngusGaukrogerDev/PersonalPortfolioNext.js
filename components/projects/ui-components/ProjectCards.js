@@ -10,9 +10,9 @@ const ProjectCards = () => {
         },
         {
             Title: "PitahayaSwap",
-            Description: "A basic ERC20 token swap Decentralised Application built using Next.js, Tailwind CSS and Solidity.",
+            Description: "Coming Soon - A basic ERC20 token swap Decentralised Application built using Next.js, Tailwind CSS and Solidity.",
             Link: "",
-            ButtonText: "WIP"
+            ButtonText: "SOON"
 
         }
     ];
