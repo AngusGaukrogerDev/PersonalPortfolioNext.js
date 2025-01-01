@@ -8,14 +8,14 @@ const ProjectCards = () => {
             Link: "https://www.thepitahaya.com",
             ButtonText: "Visit Site"
         },
-        {
-            Title: "DHFI - Website Build",
-            Description: "Website build for client working for Connect Dorset. Built using Vue.js and Tailwind CSS.",
-            Link: "https://dhfi.co.uk",
-            ButtonText: "Visit Site"
-
-        },
         // {
+        //     Title: "DHFI - Website Build",
+        //     Description: "Website build for client working for Connect Dorset. Built using Vue.js and Tailwind CSS.",
+        //     Link: "https://dhfi.co.uk",
+        //     ButtonText: "Visit Site"
+
+        // },
+        // // {
         //     Title: "PitahayaSwap",
         //     Description: "Coming Soon - A basic ERC20 token swap Decentralised Application built using Next.js, Tailwind CSS and Solidity.",
         //     Link: "",

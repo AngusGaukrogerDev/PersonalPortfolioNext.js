@@ -8,7 +8,7 @@ const AboutText = () => {
             <h4 className="text-anti-flash_white">Experienced Software Developer adept in bringing forth expertise in the design, testing and maintenance of software systems.</h4>
             <ButtonExternalLink
             buttonText={"My CV"}
-            destinationLink={"/cv/Angus_Gaukroger_-_Full_Stack_Web_Developer.pdf"}
+            destinationLink={"/cv/Angus_Gaukroger_-_CV_-_January_2025.pdf"}
             />
         </div>
     );
